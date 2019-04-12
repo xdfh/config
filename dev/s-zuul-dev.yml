@@ -1,0 +1,61 @@
+spring:
+  datasource:
+    url: ENC(KSvg4LgHCDd7HKXPVlXDBodobotDEUyNQfxl/CHsmy0TiAgKQDNUENVXJkHduzf5vr7tYJOzAHyGIGN2r6x4amtSe30+/omkYUFjIt6g074e1t+wSlgV+ILeNa/XsUxRBWC9cvJAeSfH0+VRHVM1aQ==)
+    username: ENC(9aNi3IHj2H6kZr0ODNHtyA==)
+#    password: ENC(9aNi3IHj2H6kZr0ODNHtyA==)
+    password: ENC(TkOCIol7cpFd41MfpYYQBK+giiV3zOn3)
+    driverClassName: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+zuul:
+  addProxyHeaders: true
+  host:
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
+    max-total-connections: 5000
+    max-per-route-connections: 1000
+  routes:
+    s-zuul:
+      path: /s-zuul/**
+
+    s-file:
+      path: /s-file/**
+    s-im:
+      path: /s-im/**
+
+    s-admin:
+      path: /s-admin/**
+    s-user:
+      path: /s-user/**
+    s-basic:
+      path: /s-basic/**
+    s-consult:
+      path: /s-consult/**
+    s-pension:
+      path: /s-pension/**
+    s-kidney:
+      path: /s-kidney/**
+
+
+
+
+#    api-c:
+#      path: /s-file/api/**
+#      serviceId: s-file
+#      stripPrefix: false
+
+
+  #传播到其他服务
+  sensitive-headers:  Cookie,Set-Cookie,Authorization
+  ignored-headers:  Access-Control-Allow-Origin,H-APP-Id,Token,APPToken
+  strip-prefix: true
+#  ignored-patterns: '*'
+  #重试
+  retryable: true
+
+datapram:
+  tooldir: mysqldump
+  ip: 118.123.16.211
+  dbname: oildev
+  username: ENC(9aNi3IHj2H6kZr0ODNHtyA==)
+  password: ENC(TkOCIol7cpFd41MfpYYQBK+giiV3zOn3)
+  dir: D:/file/oil/sql/
