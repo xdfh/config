@@ -1,7 +1,7 @@
 server:
   tomcat:
-    accept-count: 200
-    max-threads: 500
+    accept-count: 50
+    max-threads: 300
     max-connections: 6000
 web:
   upload-path:  D:/file/uj/
