@@ -78,12 +78,21 @@ ribbon:
 
 
 hystrix:
-  command:
+  threadpool:
+    default:
+    ##并发执行的最大线程数，默认10
+      coreSize: 200
+      ##BlockingQueue的最大队列数
+      maxQueueSize: 200
+      ##即使maxQueueSize没有达到，达到queueSizeRejectionThreshold该值后，请求也会被拒绝
+      queueSizeRejectionThreshold: 50
     default:
       execution:
         timeout:
-        #如果enabled设置为false，则请求超时交给ribbon控制
-          enabled: false
+          enabled: true
         isolation:
+          strategy: THREAD
+          semaphore:
+            maxConcurrentRequests: 1000
           thread:
-            timeoutInMilliseconds: 120000
+            timeoutInMilliseconds: 30000
