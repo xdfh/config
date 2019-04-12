@@ -1,8 +1,8 @@
 server:
   tomcat:
     accept-count: 50
-    max-threads: 500
-    max-connections: 6000
+    max-threads: 200
+    max-connections: 2000
 web:
   upload-path:  D:/file/uj/
 spring:
