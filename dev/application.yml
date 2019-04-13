@@ -43,7 +43,7 @@ spring:
     timeout: 0
     pool:
       max-wait: 3000
-      max-active: 50
+      max-active: 0
       max-idle: 500
       min-idle: 100
   http:
