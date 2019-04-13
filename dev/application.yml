@@ -42,7 +42,7 @@ spring:
     port: 6379
     timeout: 0
     pool:
-      max-wait: -1
+      max-wait: 3000
       max-active: 50
       max-idle: 500
       min-idle: 100
