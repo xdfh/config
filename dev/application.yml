@@ -43,9 +43,9 @@ spring:
     timeout: 0
     pool:
       max-wait: -1
-      max-active: 5
-      max-idle: 50
-      min-idle: 10
+      max-active: 50
+      max-idle: 500
+      min-idle: 100
   http:
     multipart:
       maxFileSize: 50Mb
