@@ -72,10 +72,4 @@ tx-lcn:
     manager-address: ENC(vdESOQXZYndFhdFY850ckoFraCHljumdLNGTr1Z+hkM=)
     tm-rpc-timeout: 2000
 
-ribbon:
-  ReadTimeout: 30000
-  ConnectTimeout: 30000
-  SocketTimeout: 30000
-  MaxAutoRetries: 3
-  MaxAutoRetriesNextServer: 2
 
