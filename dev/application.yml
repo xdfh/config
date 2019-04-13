@@ -37,15 +37,15 @@ spring:
       simple:
         acknowledge-mode: manual
   redis:
-    #host: ENC(ttbY+nvTWlPDb05Vsi6wqlliA6FwSJ8U)
-    host: 127.0.0.1
+    host: ENC(ttbY+nvTWlPDb05Vsi6wqlliA6FwSJ8U)
+    #host: 127.0.0.1
     port: 6379
     timeout: 0
     pool:
       max-wait: 3000
-      max-active: 10000
-      max-idle: 500
-      min-idle: 100
+      max-active: 100000
+      max-idle: 50
+      min-idle: 10
   http:
     multipart:
       maxFileSize: 50Mb
