@@ -37,8 +37,8 @@ spring:
       simple:
         acknowledge-mode: manual
   redis:
-    host: ENC(ttbY+nvTWlPDb05Vsi6wqlliA6FwSJ8U)
-    #host: 192.168.0.113
+    #host: ENC(ttbY+nvTWlPDb05Vsi6wqlliA6FwSJ8U)
+    host: 127.0.0.1
     port: 6379
     timeout: 0
     pool:
