@@ -90,7 +90,7 @@ ribbon:
 datapram:
   tooldir: mysqldump
   ip: 118.123.16.211
-  dbname: oildev
+  dbname: ujie
   username: ENC(9aNi3IHj2H6kZr0ODNHtyA==)
   password: ENC(TkOCIol7cpFd41MfpYYQBK+giiV3zOn3)
   dir: D:/file/uj/sql/
