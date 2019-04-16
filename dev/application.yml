@@ -69,5 +69,3 @@ tx-lcn:
   client:
     manager-address: ENC(vdESOQXZYndFhdFY850ckoFraCHljumdLNGTr1Z+hkM=)
     tm-rpc-timeout: 2000
-
-
