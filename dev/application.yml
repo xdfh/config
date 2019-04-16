@@ -4,7 +4,7 @@ server:
     max-threads: 200
     max-connections: 6000
 web:
-  upload-path:  D:/file/uj/
+  upload-path: D:/file/uj/
 spring:
    zipkin:
      base-url: http://59.110.164.54:9411
