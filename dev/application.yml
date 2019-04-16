@@ -38,8 +38,6 @@ spring:
         acknowledge-mode: manual
   redis:
     host: ENC(F4CIs4RDHVaFDXZw+UCfjkY+tsdjU1jo)
-#     host: ENC(ZJ0g97zF8fiQOhsR/Yp5JGQjFM1WVN4H)
-#     host: 59.110.164.54
     port: 6379
     pool:
       max-wait: 5000
