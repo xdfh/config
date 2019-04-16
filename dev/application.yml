@@ -39,7 +39,7 @@ spring:
   redis:
     #host: ENC(F4CIs4RDHVaFDXZw+UCfjkY+tsdjU1jo)
     host: ENC(ZJ0g97zF8fiQOhsR/Yp5JGQjFM1WVN4H)
-    port: 7001
+    port: 7006
     pool:
       max-wait: 5000
       max-active: 100000
