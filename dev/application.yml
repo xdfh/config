@@ -3,19 +3,20 @@ server:
     accept-count: 50
     max-threads: 200
     max-connections: 6000
+
 web:
-  upload-path: D:/file/uj/
+  upload-path:  D:/file/uj/
 spring:
-   zipkin:
-     base-url: http://59.110.164.54:9411
-     #本项目服务名
-     service:
-       name: ${spring.application.name}
-     locator:
-       discovery:
-         enabled: true
-     sender:
-       type: web
+  zipkin:
+    base-url: http://59.110.164.54:9411
+    #本项目服务名
+    service:
+      name: ${spring.application.name}
+    locator:
+      discovery:
+        enabled: true
+    sender:
+      type: web
   sleuth:
    #监控开关
     enabled: true
@@ -37,11 +38,13 @@ spring:
       simple:
         acknowledge-mode: manual
   redis:
-    host: 47.94.45.159
+    host: ENC(ttbY+nvTWlPDb05Vsi6wqlliA6FwSJ8U)
+    #host: 192.168.0.113
     port: 6379
+    timeout: 0
     pool:
-      max-wait: 5000
-      max-active: 100000
+      max-wait: -1
+      max-active: 5
       max-idle: 50
       min-idle: 10
   http:
