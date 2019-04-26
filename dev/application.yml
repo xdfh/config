@@ -27,16 +27,16 @@ spring:
     port: 5672
     username: ENC(SIfHH2M5id/U0ZI03x+Nbg==)
     password: ENC(SIfHH2M5id/U0ZI03x+Nbg==)
-# 开启发送确认
-    publisher-confirms: true
-# 开启发送失败退回
-    publisher-returns: true
-# 开启ACK
-    listener:
-      direct:
-        acknowledge-mode: manual
-      simple:
-        acknowledge-mode: manual
+# # 开启发送确认
+#     publisher-confirms: true
+# # 开启发送失败退回
+#     publisher-returns: true
+# # 开启ACK
+#     listener:
+#       direct:
+#         acknowledge-mode: manual
+#       simple:
+#         acknowledge-mode: manual
   redis:
     #host: ENC(ttbY+nvTWlPDb05Vsi6wqlliA6FwSJ8U)
     host: ENC(uSKRHCeCIDToALY+t6lMuSsYvmhhh3n2)
