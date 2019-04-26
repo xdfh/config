@@ -39,8 +39,9 @@ spring:
         acknowledge-mode: manual
   redis:
     #host: ENC(ttbY+nvTWlPDb05Vsi6wqlliA6FwSJ8U)
-    host: 192.168.0.115
-    port: 6379
+    host: ENC(uSKRHCeCIDToALY+t6lMuSsYvmhhh3n2)
+    port: ENC(O3fcsNa6YHqID8/XmldBQA==)
+    password: ENC(e6SUa4HUSLkj3dnRmFQbGkQyFH6aSjlV)
     timeout: 0
     pool:
       max-wait: 5000
