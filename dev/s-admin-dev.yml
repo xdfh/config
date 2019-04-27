@@ -9,4 +9,4 @@ spring:
 mybatis:
   mapper-locations: classpath:com/cj/sadmin/mapper/*.xml
 zuul:
-  num:  6
+  num:  4
