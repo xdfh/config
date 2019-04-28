@@ -45,7 +45,7 @@ zuul:
   strip-prefix: true
 #  ignored-patterns: '*'
   #重试
-  retryable: true
+  retryable: false
   ribbon-isolation-strategy: thread
   #zuul超时设置
   host:
