@@ -80,7 +80,7 @@ ribbon:
   #请求处理的超时时间 下级服务响应最大时间,超出时间消费方（路由也是消费方）返回timeout
   ReadTimeout: 60000
   #对所有操作请求都进行重试
-  OkToRetryOnAllOperations: true
+  OkToRetryOnAllOperations: false
   #对当前实例的重试次数
   MaxAutoRetries: 1
   #切换实例的重试次数
