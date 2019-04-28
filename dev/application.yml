@@ -75,10 +75,10 @@ tx-lcn:
     tm-rpc-timeout: 2000
 ribbon:
 #ribbon请求连接的超时时间，限制5秒内必须请求到服务，并不限制服务处理的返回时间
-  ConnectTimeout: 5000
-  SocketTimeout: 8000
+  ConnectTimeout: 10000
+  SocketTimeout: 20000
   #请求处理的超时时间 下级服务响应最大时间,超出时间消费方（路由也是消费方）返回timeout
-  ReadTimeout: 8000
+  ReadTimeout: 20000
   #对所有操作请求都进行重试
   OkToRetryOnAllOperations: true
   #对当前实例的重试次数
