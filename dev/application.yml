@@ -40,7 +40,8 @@ spring:
   redis:
     #host: ENC(ttbY+nvTWlPDb05Vsi6wqlliA6FwSJ8U)
     host: ENC(uSKRHCeCIDToALY+t6lMuSsYvmhhh3n2)
-    port: ENC(O3fcsNa6YHqID8/XmldBQA==)
+    #port: ENC(O3fcsNa6YHqID8/XmldBQA==)
+    port: 16379
     password: ENC(e6SUa4HUSLkj3dnRmFQbGkQyFH6aSjlV)
     timeout: 0
     pool:
