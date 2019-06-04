@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: ENC(KSvg4LgHCDd7HKXPVlXDBodobotDEUyNQfxl/CHsmy0TiAgKQDNUENVXJkHduzf5vr7tYJOzAHyGIGN2r6x4amtSe30+/omkYUFjIt6g074e1t+wSlgV+ILeNa/XsUxRBWC9cvJAeSfH0+VRHVM1aQ==)
+    url: jdbc:mysql://59.110.164.54:63306/ujie?characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
     username: ENC(9aNi3IHj2H6kZr0ODNHtyA==)
 #    password: ENC(9aNi3IHj2H6kZr0ODNHtyA==)
     password: ENC(TkOCIol7cpFd41MfpYYQBK+giiV3zOn3)
