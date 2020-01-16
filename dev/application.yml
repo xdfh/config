@@ -64,7 +64,7 @@ spring:
       write-dates-as-timestamps: false
 logging:
   level: 
-    root: debug
+    root: info
     com:
       cj: debug
 mybatis:
