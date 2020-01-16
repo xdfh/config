@@ -72,7 +72,7 @@ mybatis:
   mapper-locations: classpath:com/cj/common/mapper/*.xml
 tx-lcn:
   client:
-    manager-address: ENC(vdESOQXZYndFhdFY850ckoFraCHljumdLNGTr1Z+hkM=)
+    manager-address: 192.168.1.185:8070
     tm-rpc-timeout: 2000
 ribbon:
 #ribbon请求连接的超时时间，限制5秒内必须请求到服务，并不限制服务处理的返回时间
