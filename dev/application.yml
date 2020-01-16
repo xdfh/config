@@ -23,7 +23,7 @@ spring:
     sampler:
       percentage: 1.0
   rabbitmq:
-    host: ENC(+YJKD0Er8jXxXpb2DVnp097KOVmjUAQ8)
+    host: 139.224.195.76
     port: 5672
     username: ENC(SIfHH2M5id/U0ZI03x+Nbg==)
     password: ENC(SIfHH2M5id/U0ZI03x+Nbg==)
@@ -39,7 +39,7 @@ spring:
         acknowledge-mode: manual
   redis:
     #host: ENC(ttbY+nvTWlPDb05Vsi6wqlliA6FwSJ8U)
-    host: ENC(uSKRHCeCIDToALY+t6lMuSsYvmhhh3n2)
+    host: 139.224.195.76
     #port: ENC(O3fcsNa6YHqID8/XmldBQA==)
     port: 16379
     password: ENC(e6SUa4HUSLkj3dnRmFQbGkQyFH6aSjlV)
