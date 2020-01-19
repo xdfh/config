@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://59.110.164.54:63306/ujie?characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://139.224.195.76:63306/ujiev2_1_test?characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
     username: ENC(9aNi3IHj2H6kZr0ODNHtyA==)
     password: ENC(TkOCIol7cpFd41MfpYYQBK+giiV3zOn3)
     driverClassName: com.mysql.jdbc.Driver
